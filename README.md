@@ -45,10 +45,6 @@ For example:
 - Real-time transcription/LLM streaming
 - Multi-language support beyond English
 
-**📚 Need help and want to learn more?**
-
-Full courses on AI Engineering are available at [https://aiengineer.community/join](https://aiengineer.community/join)
-
 ---
 
 ## Quick Start
@@ -107,11 +103,7 @@ If you need true `localhost` access (some code expects `localhost:8000`):
 3. Ports will forward to your actual `localhost`
 
 > **💡 Tip:** Stop your Codespace when not in use to conserve free hours. Go to [github.com/codespaces](https://github.com/codespaces) to manage active instances.
-
-> **📺 Video Guide:** Watch the [GitHub Codespaces setup tutorial](https://youtu.be/KkV1O-rXntM) for a walkthrough.
-
-> **🔄 Other Platforms:** Any cloud platform supporting devcontainers (Gitpod, DevPod, etc.) can also be used with this repository's `.devcontainer` configuration.
-
+> 
 ---
 
 ### 🛠️ Manual Installation
