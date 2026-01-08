@@ -3,26 +3,6 @@
 A base for your portfolio piece to land your next AI engineering job.
 AI-powered voice transcription with Whisper and LLM cleaning. Browser-based recording interface with FastAPI backend.
 
-**📺 Recommended Video Tutorial:** For project structure and API details, watch the full tutorial on YouTube: https://youtu.be/WUo5tKg2lnE
-
----
-
-## Branches
-
-This repository uses checkpoint branches to progressively teach AI engineering concepts:
-
-| Branch | Description | Builds On | Learning Resource |
-|--------|-------------|-----------|-------------------|
-| `main` | Complete transcript app with Whisper + LLM cleaning (runs fully locally, beginner friendly) | — | [YouTube Tutorial](https://youtu.be/WUo5tKg2lnE) |
-| `checkpoint-1-fundamentals` | Exercise generation system for learning Python/TypeScript fundamentals | — | [Classroom](https://aiengineer.community/join) |
-| `checkpoint-agentic-openrouter` | Agentic workflow with autonomous tool selection | `main` | [Classroom](https://aiengineer.community/join) |
-| `checkpoint-pydanticai-openrouter` | PydanticAI framework for structured agent development | `checkpoint-agentic-openrouter` | [Classroom](https://aiengineer.community/join) |
-| `checkpoint-rest-mcp-openrouter` | MCP integration with REST API and GitHub Issues | `checkpoint-pydanticai-openrouter` | [Classroom](https://aiengineer.community/join) |
-
-> **Why "openrouter" in branch names?** These branches use [OpenRouter](https://openrouter.ai/) to access powerful cloud models that reliably support tool/function calling. Small local models struggle with agentic workflows.
-
-Switch branches with: `git checkout <branch-name>`
-
 ---
 
 **Features:**
@@ -82,7 +62,7 @@ Skip to [Running the App](#running-the-app).
 
 #### 1. Create a Codespace
 
-- Go to the [repository on GitHub](https://github.com/AI-Engineer-Skool/local-ai-transcript-app)
+- Go to the [repository on GitHub](https://github.com/Abhinav-Dave/local-ai-transcript-app)
 - Click the green **"Code"** button → **"Codespaces"** tab → **"Create codespace on main"**
 - The devcontainer enforces at least **4-core**, but if you can select more cores and RAM please do so.
 - Wait ~5-10 minutes for initial setup
