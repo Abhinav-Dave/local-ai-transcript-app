@@ -1,6 +1,5 @@
 # AI Transcript App
 
-A base for your portfolio piece to land your next AI engineering job.
 AI-powered voice transcription with Whisper and LLM cleaning. Browser-based recording interface with FastAPI backend.
 
 ---
